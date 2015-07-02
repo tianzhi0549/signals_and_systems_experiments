@@ -1,0 +1,12 @@
+subplot(221);
+title('sin(t)');
+plot_signals(@sin);
+subplot(222);
+title('ÖÜÆÚ·½²¨');
+plot_signals(@(t)(square(t)+1)./2);
+subplot(223);
+title('sinc(t)');
+plot_signals(@sinc);
+subplot(224);
+title('e^t');
+plot_signals(@exp);
