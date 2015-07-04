@@ -11,3 +11,4 @@ plot(t, x2(t), 'k');
 plot(t, x3(t), 'm');
 legend('x(t)', 'x(t+3)', 'x(2t+3)', 'x(-2t+3)');
 xlim([-half_len half_len]);
+grid on;

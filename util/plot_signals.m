@@ -5,4 +5,5 @@ function plot_signals(f)
     ylim([-1.2 1.2]);
     hold on;
     plot(t, f(t));
+    grid on;
 end

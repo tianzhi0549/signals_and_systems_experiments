@@ -10,3 +10,4 @@ plot_signals(@sinc);
 subplot(224);
 title('e^t');
 plot_signals(@exp);
+grid on;
